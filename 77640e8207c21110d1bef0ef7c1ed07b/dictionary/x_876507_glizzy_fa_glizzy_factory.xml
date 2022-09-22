@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Glizzy Factory" max_length="40" name="x_876507_glizzy_fa_glizzy_factory" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Bun" max_length="40" name="u_bun_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="White" sequence="0" value="white"/>
+                <element inactive_on_update="false" label="Wheat" sequence="1" value="wheat"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="small" label="Glizzy Size" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Large" sequence="2" value="large"/>
+            </choice>
+        </element>
+        <element default="$0.00" label="Cost" max_length="40" name="u_cost" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expiration" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="turkey" label="Type of Glizzy" max_length="40" name="u_glizzy_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Turkey" sequence="0" value="turkey"/>
+                <element inactive_on_update="false" label="Beef" sequence="1" value="beef"/>
+                <element inactive_on_update="false" label="Pork" sequence="2" value="pork"/>
+            </choice>
+        </element>
+        <element label="# of Glizzy's" max_length="40" name="u_integer_4" type="integer"/>
+    </element>
+</database>

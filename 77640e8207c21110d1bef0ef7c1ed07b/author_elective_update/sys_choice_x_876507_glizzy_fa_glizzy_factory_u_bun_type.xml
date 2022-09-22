@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bun_type" table="x_876507_glizzy_fa_glizzy_factory" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bun_type</element>
+            <name>x_876507_glizzy_fa_glizzy_factory</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 16:55:36</sys_created_on>
+            <sys_id>7c96468607c21110d1bef0ef7c1ed044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bun_type</sys_name>
+            <sys_package display_value="Glizzy Factory" source="x_876507_glizzy_fa">77640e8207c21110d1bef0ef7c1ed07b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Glizzy Factory">77640e8207c21110d1bef0ef7c1ed07b</sys_scope>
+            <sys_update_name>sys_choice_x_876507_glizzy_fa_glizzy_factory_u_bun_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 16:55:36</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bun_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>White</label>
+            <language>en</language>
+            <name>x_876507_glizzy_fa_glizzy_factory</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 16:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3896468607c21110d1bef0ef7c1ed044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 16:55:36</sys_updated_on>
+            <value>white</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bun_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wheat</label>
+            <language>en</language>
+            <name>x_876507_glizzy_fa_glizzy_factory</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-21 16:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc96468607c21110d1bef0ef7c1ed046</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-21 16:55:36</sys_updated_on>
+            <value>wheat</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
